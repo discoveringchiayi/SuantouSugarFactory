@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>蒜頭糖廠</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-station">
+        <li class="text">station</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-train">
+        <li class="text">train</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-station_side">
+        <li class="text">station_side</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-station_back">
+        <li class="text">station_back</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-torii">
+        <li class="text">torii</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-dormitory">
+        <li class="text">dormitory</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-temple">
+        <li class="text">temple</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-sun-yat-sen">
+        <li class="text">Sun Yat-sen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-sun-yat-sen2">
+        <li class="text">Sun Yat-sen2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-torii_back">
+        <li class="text">torii_back</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-torii_side">
+        <li class="text">torii_side</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-torii_side2">
+        <li class="text">torii_side2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-shelter">
+        <li class="text">shelter</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
